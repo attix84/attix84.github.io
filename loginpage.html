@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Daemyung Optical</title>
+      <meta charset="utf-8">
+      
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"
+ type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"
+ type="text/css">
+      
+     
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     
+      
+
+      
+      <link href="css/style.css" type="text/css" rel="stylesheet">
+      <link href="css/animate.css" type="text/css" rel="stylesheet">
+      <link href="css/loginstyle.css" type="text/css" rel="stylesheet">
+  </head>
+    
+  <body>
+      
+      <nav class="navbar navbar-default navbar-fixed-top animated slideInDown ">
+        <div class="containerfluid ">  
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menunavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                  <a class="navbar-brand responsive" href="/index.html#mypage"><img class="img-responsive" src="img/logo-dark.png"></a>
+              </div>
+
+            
+              <div class="collapse navbar-collapse" id="menunavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li ><a href="index.html#aboutus">ABOUT US</a></li>
+                        <li ><a href="index.html#corevalues">CORE VALUES</a></li>
+                        <li ><a href="index.html#products">PRODUCTS</a></li>
+                        <li ><a href="index.html#newsnotice">NEWS  NOTICE</a></li>
+                        <li ><a href="index.html#contact">CONTACT US</a></li>
+                         <li><a href="#"><span class="glyphicon glyphicon-user"></span> SIGN IN</a></li>
+                    </ul>
+              </div>
+            
+        </div>
+      </nav>
+      
+      <div class="container" style="margin-top: 80px; height: 740px;">
+          <div class="col-md-12">
+              <div class="col-md-6">
+                <div class="line" style="margin-bottom: -10px"></div>
+                <h2><strong>Register | Redeem</strong></h2><br>
+                <form style="margin-top: 80px">
+                <h3 style="text-align: center;">Select your Country</h3>
+                  <div class="row" style="padding: 15px;" >
+                <select id="country_name" name="country[name]"><option value="Select Country"></option></select>
+                </div>
+                    
+                <div class="form-group">
+						<input class="form-control parsley-validated" id="user_email" name="user[email]" parsley-required="true" parsley-type="email" placeholder="Email" type="text"><input name="user[news_letter]" type="hidden" value="0"><input checked="checked" class="form-control" id="user_news_letter" name="user[news_letter]" type="checkbox" value="1"> Receive our newsletter.
+				</div>
+                <div class="row half-it">
+						<div class="col-md-6">
+							<div class="form-group after-initial-check">
+								<input class="form-control parsley-validated" id="user_first_name" name="user[first_name]" parsley-required="true" placeholder="First Name" type="text">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group after-initial-check">
+								<input class="form-control parsley-validated" id="user_last_name" name="user[last_name]" parsley-required="true" placeholder="Last Name" type="text">
+							</div>
+						</div>
+					</div>
+                
+                    <div class="form-group">
+					<input class="form-control parsley-validated" id="product_upc" name="product_upc" parsley-rangelength-message="UPC should be exactly 12 digits (no spaces)" parsley-rangelength="[12,12]" parsley-required="true" placeholder="Bar code" type="text">
+				    </div>
+                    
+                    <div class="form-group after-initial-check">
+						<input class="form-control parsley-validated" id="address_address" name="address[address]" parsley-required="true" placeholder="Address" type="text">
+					</div>
+                    
+                    <div class="row half-it">
+						<div class="col-md-6">
+							<div class="form-group after-initial-check">
+								<input class="form-control parsley-validated" id="address_city" name="address[city]" parsley-required="true" placeholder="City" type="text">
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="form-group after-initial-check">
+								
+								<select id="address" style="display: none">
+								</select>
+								<input class="form-control parsley-validated" id="address_state" name="address[state]" parsley-required="true" placeholder="State/Province" type="text">
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="form-group after-initial-check">
+								<input class="form-control parsley-validated" id="address_zip_code" name="address[zip_code]" parsley-required="true" placeholder="Zip/Postal Code" type="text">
+							</div>
+						</div>
+					</div>
+                    
+                    <div class="form-group after-initial-check">
+					<input class="form-control parsley-validated" id="registration_store" name="registration[store]" parsley-required="true" placeholder="Purchased From" type="text">
+				    </div>
+                    
+                    <div class="submit-wrapper register">
+					<input name="commit" type="submit" value="Register">
+				    </div>
+                </form>
+              </div>
+              <div class="col-md-4">
+                        <h3 style="margin-bottom: 50px;"><strong>Guarantee</strong></h3>
+                        <p> Put your text here
+
+                        </p>		
+              </div>
+          </div>
+      </div>
+      
+       <footer class="hidden-xs">
+            <div class="container" style="padding: 30px;">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img class="img-responsive center-block" src="img/logo-dark.png" style="height:40px;">
+                    </div>
+                    <div class="col-sm-9">
+                        <ul class="list-inline company-info">
+                            <li>Company Name : Daemyung Optical</li>
+                            <li>Business License Number : 306-81-32850</li>
+                            <li>CEO : Bradley Staley</li>
+                        </ul>
+                        <ul class="list-inline company-info">
+                            <li>Address : 100, Sinilseo-ro 18beon-gil, Daedeok-gu, daejeon, Korea</li>
+                            <li>Tel : +82-42-939-1000</li>
+                            <!--
+                            <li>Fax: +82-42-939-1006</li>
+                            -->
+                            <li>Email : dagas@dmo.co.kr</li>
+                        </ul>
+                    </div>
+                </div><!--/.row-->
+            </div><!--/.container-->
+        <!--	
+            <hr>
+
+            <div class="container">
+                <div class="text-right">
+                    <small>Copyright(c) 2015 대명광학 주식회사, All Right Reserved.</small>
+                    <a href="http://one-page.co.kr"><small>Design &amp; Development by Onepage</small></a>
+                </div>
+            </div>
+        -->	
+        </footer>
+  </body>
+    
+</html>

@@ -1,0 +1,37 @@
+h3{
+    color: #1e1e1e;
+}
+
+#country_name{
+    background-color: transparent;
+    height: 39px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #1e1e1e;
+    margin: 0px;
+}
+
+.form-control {
+    border: 1px solid #1e1e1e;
+    border-radius: 0px;
+}
+
+#user_news_letter{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin-top: 16px;
+    padding: 0px;
+}
+
+.register input {
+    width: 200px;
+    background-color: #1e1e1e;
+    color: #f3f3f3;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    border: 0px;
+    border-radius: 6px;
+    
+}
