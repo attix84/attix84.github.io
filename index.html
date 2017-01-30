@@ -17,10 +17,24 @@
       
       <script src="js/wow.min.js"></script>
       <script src="js/animation-script.js"></script>
+      
   </head>
     
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
-            
+  <body data-spy="scroll" data-target=".navbar" data-offset="50" onload="LoadFunction()" >
+      
+      
+      <div id="loader">
+			<div class="middle-box">
+				<div class="inner">
+					<div class="symbol animated pulse">
+						<img class="img-responsive center-block" src="/img/logo-dark.png">
+					</div>
+				</div>
+			</div>
+      </div>
+     
+     <div id="mybody"  style="display:none;">
+      
       <nav class="navbar navbar-default navbar-fixed-top  slideInDown">
         <div class="containerfluid ">  
               <div class="navbar-header">
@@ -491,6 +505,21 @@
             </div>
         -->	
         </footer>    
+      </div>
+      
+      <script>
+        var timeVar;
+
+        function LoadFunction() {
+            timeVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("mybody").style.display = "block";
+        }
+      </script>
+
      
   </body>
     
