@@ -53,13 +53,11 @@
 
 #mypage{
     padding-top: 63px;
-}
-
-.main-header {
     background-image: url("../img/home-img.jpg");
     background-size: cover;
-    height: 895px;
+    height: 950px;
 }
+
 
 .line{
     border: 2px solid #1e1e1e;
