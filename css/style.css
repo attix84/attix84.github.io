@@ -1,6 +1,21 @@
 .body{
     padding-top: 70px;
 }
+
+#loader {
+    background-color: #fefefe;
+    position: absolute;
+    padding-top: 25%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    text-align: center;
+    }
+
+.symbol{
+    animation-iteration-count: infinite;
+    }
+
 .navbar-default{
     background-color: #fefefe;
     border: transparent;
