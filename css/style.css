@@ -53,9 +53,6 @@
 
 #mypage{
     padding-top: 63px;
-    background-image: url("../img/home-img.jpg");
-    background-size: cover;
-    height: 950px;
 }
 
 
@@ -85,9 +82,9 @@ h2{
 
 
 #aboutus {
-    position: relative;
     background-image: url("../img/about-bg.png");
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 107% 10%;
     height: 895px;
     padding-top: 80px;
 }
